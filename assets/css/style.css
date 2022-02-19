@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+
+/**
+*Header
+*Nav bar styles start
+*/
+
+.header {
+  padding: 18px 0 0 18px;
+  background-color: darkslategrey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: ivory;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: darkslategrey;
+  background-color: ivory;
+  
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.header nav ul li {
+  display: inline-block;
+  text-align: space-between;
+  margin-left: 25px;
+}
+
+a {
+  color: ivory;
+}
+
