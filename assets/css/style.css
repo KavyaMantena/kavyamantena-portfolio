@@ -41,7 +41,41 @@ body {
   margin-left: 25px;
 }
 
-a {
-  color: ivory;
+.header a {
+  color: ivory
 }
+
+#hero {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/Screen\ Shot\ 2022-02-20\ at\ 11.42.11\ AM.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+  .section-header {
+   font-size: 48px;
+   color: darkslategrey;
+   border-right: 2px solid black;
+   padding-right: 33px;
+   padding-left: 100px;
+  }
+
+.about-me p {
+  margin-left: 80px;
+  font-size: x-large;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
